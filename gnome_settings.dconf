@@ -1,0 +1,359 @@
+[Loupe]
+show-properties=true
+
+[Ptyxis]
+default-profile-uuid='ee4ea709cdadb3514fe3ba2169e249e5'
+profile-uuids=['ee4ea709cdadb3514fe3ba2169e249e5']
+window-size=(uint32 80, uint32 24)
+
+[Showtime/State]
+is-maximized=true
+
+[boxes]
+first-run=false
+view='icon-view'
+window-maximized=true
+
+[calculator]
+base=10
+button-mode='basic'
+source-units=['degree']
+target-units=['AUD', 'radian']
+unit-category='angle'
+window-maximized=false
+window-size=(360, 616)
+
+[clocks]
+world-clocks=@aa{sv} []
+
+[clocks/state/window]
+maximized=false
+panel-id='world'
+size=(870, 690)
+
+[control-center]
+last-panel='display'
+window-state=(980, 640, false)
+
+[desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/System]
+apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.freedesktop.GnomeAbrt.desktop', 'org.gnome.SystemMonitor.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Contacts.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.Tour.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Yelp.desktop', 'org.gnome.SimpleScan.desktop', 'org.gnome.Showtime.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Characters.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Decibels.desktop', 'org.gnome.Connections.desktop', 'org.gnome.Papers.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'libreoffice-writer.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/yurawoin/.config/background'
+picture-uri-dark='file:///home/yurawoin/.config/background'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/datetime]
+automatic-timezone=false
+
+[desktop/input-sources]
+current=uint32 0
+mru-sources=[('xkb', 'ua+winkeys'), ('xkb', 'us')]
+per-window=false
+show-all-sources=false
+sources=[('xkb', 'us'), ('xkb', 'ua+winkeys')]
+
+[desktop/interface]
+clock-show-date=true
+color-scheme='prefer-dark'
+cursor-blink=false
+cursor-blink-time=2500
+enable-animations=true
+gtk-theme='WhiteSur-Dark'
+icon-theme='WhiteSur-dark'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[desktop/notifications]
+application-children=['org-mozilla-firefox', 'org-gnome-tweaks', 'org-gnome-ptyxis', 'gnome-about-panel', 'gnome-power-panel', 'code', 'org-gnome-software', 'gnome-datetime-panel', 'org-freedesktop-problems-applet', 'org-telegram-desktop', 'com-brave-browser', 'org-qbittorrent-qbittorrent', 'com-usebottles-bottles', 'org-gnome-showtime', 'vlc', 'org-fedoraproject-mediawriter', 'org-gnome-extensions', 'org-gnome-nautilus', 'com-raggesilver-blackbox', 'com-visualstudio-code']
+
+[desktop/notifications/application/code]
+application-id='code.desktop'
+
+[desktop/notifications/application/com-brave-browser]
+application-id='com.brave.Browser.desktop'
+
+[desktop/notifications/application/com-raggesilver-blackbox]
+application-id='com.raggesilver.BlackBox.desktop'
+
+[desktop/notifications/application/com-usebottles-bottles]
+application-id='com.usebottles.bottles.desktop'
+
+[desktop/notifications/application/com-visualstudio-code]
+application-id='com.visualstudio.code.desktop'
+
+[desktop/notifications/application/gnome-about-panel]
+application-id='gnome-about-panel.desktop'
+
+[desktop/notifications/application/gnome-datetime-panel]
+application-id='gnome-datetime-panel.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/org-fedoraproject-mediawriter]
+application-id='org.fedoraproject.MediaWriter.desktop'
+
+[desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[desktop/notifications/application/org-gnome-extensions]
+application-id='org.gnome.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
+[desktop/notifications/application/org-gnome-showtime]
+application-id='org.gnome.Showtime.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[desktop/notifications/application/org-mozilla-firefox]
+application-id='org.mozilla.firefox.desktop'
+
+[desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[desktop/notifications/application/org-telegram-desktop]
+application-id='org.telegram.desktop.desktop'
+
+[desktop/notifications/application/vlc]
+application-id='vlc.desktop'
+
+[desktop/peripherals/mouse]
+double-click=100
+natural-scroll=false
+speed=-1.0
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+report-technical-problems=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/yurawoin/.local/share/backgrounds/2026-04-18-23-07-51-_%20(1).jpeg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/wm/preferences]
+auto-raise=false
+button-layout='close,minimize,maximize:'
+focus-mode='click'
+
+[evolution-data-server]
+migrated=true
+
+[login-screen]
+enable-fingerprint-authentication=true
+enable-smartcard-authentication=false
+
+[mutter]
+experimental-features=['kms-modifiers']
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+
+[nautilus/window-state]
+initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
+maximized=false
+
+[portal/filechooser/com.brave.Browser]
+last-folder-path='/home/yurawoin/dotfiles'
+
+[portal/filechooser/com.usebottles.bottles]
+last-folder-path='/home/yurawoin/game/Need for Speed Most Wanted by Igruha'
+
+[portal/filechooser/com.visualstudio.code]
+last-folder-path='/home/yurawoin/YuraWoin/shablon'
+
+[portal/filechooser/org.chromium.Chromium]
+last-folder-path='/home/yurawoin/YuraWoin'
+
+[portal/filechooser/org.fedoraproject.MediaWriter]
+last-folder-path='/home/yurawoin/YuraWoin'
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/yurawoin/Завантажене'
+
+[portal/filechooser/org.telegram.desktop]
+last-folder-path='/home/yurawoin/YuraWoin/фото і відео з вінди/wallpaper'
+
+[portal/filechooser/steam]
+last-folder-path='/home/yurawoin/.local/share/Steam/steamapps/compatdata/3094425218/pfx/drive_c/Program Files (x86)/Need for Speed Most Wanted'
+
+[settings-daemon/plugins/color]
+night-light-last-coordinates=(49.261699999999998, 23.847200000000001)
+
+[settings-daemon/plugins/housekeeping]
+donation-reminder-last-shown=int64 1776441315915847
+
+[shell]
+app-picker-layout=[{'System': <{'position': <0>}>, 'Utilities': <{'position': <1>}>, 'org.gnome.Settings.desktop': <{'position': <2>}>, 'org.gnome.tweaks.desktop': <{'position': <3>}>, 'org.gnome.Extensions.desktop': <{'position': <4>}>, 'org.mozilla.firefox.desktop': <{'position': <5>}>, 'org.gnome.Software.desktop': <{'position': <6>}>, 'org.gnome.TextEditor.desktop': <{'position': <7>}>, 'SQLiteStudio.desktop': <{'position': <8>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <9>}>, 'steam.desktop': <{'position': <10>}>, 'vlc.desktop': <{'position': <11>}>, 'discord.desktop': <{'position': <12>}>, 'btop.desktop': <{'position': <13>}>, 'STALCRAFT X.desktop': <{'position': <14>}>, 'org.gnome.Ptyxis.desktop': <{'position': <15>}>, 'nvim.desktop': <{'position': <16>}>}]
+command-history=['r']
+disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'System_Monitor@bghome.gmail.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'quick-settings-avatar@d-go', 'just-perfection-desktop@just-perfection', 'window-title-in-topbar@fthx', 'blur-my-shell@aunetx', 'spotify-controls@Sonath21', 'Bluetooth-Battery-Meter@maniacx.github.com', 'dash2dock-lite@icedman.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'com.brave.Browser.desktop', 'com.raggesilver.BlackBox.desktop', 'sublime_text.desktop', 'com.visualstudio.code.desktop', 'org.telegram.desktop.desktop', 'org.gnome.Calculator.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='49.1'
+
+[shell/extensions/Bluetooth-Battery-Meter]
+circle-widget-custom-colors=['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']
+device-list=['{"path":"/org/bluez/hci0/dev_03_E6_66_BC_1F_62","icon":"audio-headset","alias":"AirPods Pro","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1779892294,"disconnected-time":1779892988}', '{"path":"/org/bluez/hci0/dev_F4_EE_25_1A_8F_B6","icon":"input-mouse","alias":"AJ159 PRO","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1779891288,"disconnected-time":1779891294}', '{"path":"/org/bluez/hci0/dev_D7_CB_17_31_4E_E7","icon":"input-keyboard","alias":"EK68","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1779790542,"disconnected-time":1779645100}']
+enable-battery-level-icon=true
+enable-battery-level-text=false
+level-indicator-custom-colors=['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']
+popup-in-quick-settings=false
+swap-icon-text=false
+
+[shell/extensions/blur-my-shell]
+rounded-blur-found=false
+settings-version=2
+
+[shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/blur-my-shell/applications]
+blur=false
+opacity=211
+pipeline='pipeline_default'
+static-blur=false
+
+[shell/extensions/blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[shell/extensions/blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+pipeline='pipeline_default'
+sigma=30
+
+[shell/extensions/blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/dash2dock-lite]
+animation-bounce=0.75
+animation-magnify=0.29999999999999999
+animation-rise=0.25
+animation-spread=0.75
+autohide-dash=false
+autohide-speed=0.5
+border-radius=2.3874345549738218
+dock-padding=0.0
+downloads-icon=false
+icon-border-radius=3.0
+icon-effect=0
+icon-spacing=0.0
+items-pullout-angle=0.5
+msg-to-ext=''
+notification-badge-size=0
+notification-badge-style=0
+overview-transparent-background=false
+preferred-monitor=0
+pressure-sense=false
+pressure-sense-sensitivity=0.40000000000000002
+running-indicator-style=4
+scroll-sensitivity=0.40000000000000002
+separator-color=(0.73000001907348633, 0.67890000343322754, 0.67890000343322754, 1.0)
+separator-thickness=3
+shrink-icons=true
+
+[shell/extensions/just-perfection]
+accessibility-menu=true
+background-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-icon-size=0
+double-super-to-appgrid=true
+osd=true
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+support-notifier-showed-version=36
+support-notifier-type=0
+theme=false
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=true
+workspaces-in-app-grid=true
+
+[shell/extensions/user-theme]
+name='WhiteSur-Dark'
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1779865827
+first-run=false
+flatpak-purge-timestamp=int64 1779866872
+install-timestamp=int64 1779020672
+packagekit-historical-updates-timestamp=uint64 1779020672
+security-timestamp=int64 1779865846743111
+update-notification-timestamp=int64 1779866016
+upgrade-notification-timestamp=int64 1779652357
+
+[system/location]
+enabled=true
+
+[tweaks]
+show-extensions-notice=false

@@ -1,0 +1,9 @@
+[com/raggesilver/BlackBox]
+opacity=60
+easy-copy-paste=true
+theme-bold-is-bright=true
+use-sixel=false
+remember-window-size=false
+window-height=518
+window-width=830
+terminal-padding=(0, 0, 0, 0)

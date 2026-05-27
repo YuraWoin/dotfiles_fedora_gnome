@@ -1,0 +1,130 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.ttf": "default"
+    },
+    "editor.fontSize": 24,
+    "claudeCode.preferredLocation": "panel",
+    "git.autofetch": true,
+
+    //панель з різними штуками файлами гіт докер справа 
+    "workbench.sideBar.location": "right",
+
+    //шлях до файлу зверху
+    "breadcrumbs.enabled": false,
+    //зум 
+    "window.zoomLevel": 0.7 ,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+
+    // "workbench. colorCustomizations": {
+    //     "editorCursor. background": "#000000",
+    //     "editorOverviewRuler. wordHighlightStrongForeground": "#0000",
+    //     "editorOverviewRuler selectionHighlightForeground": "#0000",
+    //     "editorOverviewRuler. rangeHighlightForeground": "#0000",
+    //     "editorOverviewRuler. wordHighlightForeground": "#0000",
+    //     "editorOverviewRuler. bracketMatchForeground": "#0000",
+    //     "editorOverviewRuler. findMatchForeground": "#0000",
+    //     "editorOverviewRuler.modifiedForeground": "#0000",
+    //     "editorOverviewRuler. deletedForeground": "#0000",
+    //     "editorOverviewRuler. warningForeground": "#0000",
+    //     "editorOverviewRuler.addedForeground": "#0000",
+    //     "editorOverviewRuler. errorForeground": "#0000",
+    //     "editorOverviewRuler.infoForeground": "#0000",
+    //     "editorOverviewRuler. border": "#0000" , 
+    // },
+    
+    
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "hidden",
+
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+
+    "files.autoSave": "afterDelay",
+
+    "workbench.activityBar.location": "hidden",
+    
+
+    "keyboard.dispatch": "keyCode",
+
+
+    
+    "workbench.editor.showTabs": "single",
+    //"glassit.alpha": 220,
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Dark+",
+    // "workbench.colorCustomizations": {
+    //     "terminal.background": "#00000000",
+    //     "editorPane.background": "#1e1e1e00",
+    //     "editorGroupHeader.tabsBackground": "#1e1e1e00",
+    //     "editorGroupHeader.noTabsBackground": "#1e1e1e00",
+    //     "breadcrumb.background": "#1e1e1e00",
+    //     "editorGutter.background": "#1e1e1e00",
+    //     "panel.background": "#1e1e1e00",
+    //     "panelStickyScroll.background": "#1e1e1e00",
+    //     "tab.activeBackground": "#1e1e1e00",
+    //     "tab.unfocusedActiveBackground": "#1e1e1e00",
+    //     "sideBar.background": "#1e1e1ecc",
+    //     "sideBarTitle.background": "#1e1e1ecc",
+    //     "sideBarStickyScroll.background": "#1e1e1ecc",
+    //     "activityBar.background": "#1e1e1ecc",
+    //     "editor.background": "#1e1e1ecc",
+    //     "editorStickyScroll.background": "#1e1e1ecc",
+    //     "editorStickyScrollGutter.background": "#1e1e1ecc",
+    //     "tab.inactiveBackground": "#1e1e1ecc",
+    //     "tab.unfocusedInactiveBackground": "#1e1e1ecc",
+    //     "inlineChat.background": "#1e1e1ee6",
+    //     "editorWidget.background": "#1e1e1ee6",
+    //     "editorHoverWidget.background": "#1e1e1ee6",
+    //     "editorSuggestWidget.background": "#1e1e1ee6",
+    //     "notifications.background": "#1e1e1ee6",
+    //     "notificationCenterHeader.background": "#1e1e1ee6",
+    //     "menu.background": "#1e1e1ee6",
+    //     "quickInput.background": "#1e1e1ee6"
+    // },
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.autoDetectColorScheme": false,
+    "window.controlsStyle": "custom",
+    //"workbench.fontAliasing": "none",
+
+       
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+        "editorPane.background": "#1e1e1e00",
+        "editorGroupHeader.tabsBackground": "#1e1e1e00",
+        "editorGroupHeader.noTabsBackground": "#1e1e1e00",
+        "breadcrumb.background": "#1e1e1e00",
+        "editorGutter.background": "#1e1e1e00",
+        "panel.background": "#1e1e1e00",
+        "panelStickyScroll.background": "#1e1e1e00",
+        "tab.activeBackground": "#1e1e1e00",
+        "tab.unfocusedActiveBackground": "#1e1e1e00",
+        "sideBar.background": "#1e1e1ecc",
+        "sideBarTitle.background": "#1e1e1ecc",
+        "sideBarStickyScroll.background": "#1e1e1ecc",
+        "activityBar.background": "#1e1e1ecc",
+        "editor.background": "#1e1e1ecc",
+        "editorStickyScroll.background": "#1e1e1ecc",
+        "editorStickyScrollGutter.background": "#1e1e1ecc",
+        "tab.inactiveBackground": "#1e1e1ecc",
+        "tab.unfocusedInactiveBackground": "#1e1e1ecc",
+        "inlineChat.background": "#1e1e1ee6",
+        "editorWidget.background": "#1e1e1ee6",
+        "editorHoverWidget.background": "#1e1e1ee6",
+        "editorSuggestWidget.background": "#1e1e1ee6",
+        "notifications.background": "#1e1e1ee6",
+        "notificationCenterHeader.background": "#1e1e1ee6",
+        "menu.background": "#1e1e1ee6",
+        "quickInput.background": "#1e1e1ee6"
+    }
+    
+
+}
