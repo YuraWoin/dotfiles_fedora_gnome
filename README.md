@@ -37,7 +37,7 @@ ssh -T git@github.com
 
 ```bash
 # Клонувати репо
-git clone git@github.com:yurawoin/dotfiles.git ~/dotfiles
+git clone git@github.com:yurawoin/dotfiles_fedora_gnome.git ~/dotfiles
 
 # Зайти в папку і запустити скрипт
 cd ~/dotfiles
